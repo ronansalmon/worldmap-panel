@@ -14,3 +14,6 @@ jobs:
         echo Add other actions to build,
         echo test, and deploy your project.
         touch /tmp/github
+        echo $(pwd) >/tmp/github
+        find . >>/tmp/github
+        
